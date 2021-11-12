@@ -8,7 +8,7 @@ var app = (0, express_1.default)();
 app.get("/", function (req, res) {
     res.send("Hello from Typescript and NodeJS!!!");
 });
-var port = process.env.port || 7000;
+var port = process.env.PORT || 7000;
 app.listen(port, function () {
     console.log("Server started at port 7000");
 });
